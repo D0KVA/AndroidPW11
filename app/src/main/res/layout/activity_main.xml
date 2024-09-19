@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,15 +15,23 @@
 
         <Button
             android:id="@+id/btnFrameAnimation"
+            android:layout_marginTop="-200dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Frame Animation" />
+            android:text="Анимация из фреймов" />
 
         <Button
             android:id="@+id/btnTweenAnimation"
+            android:text="Типо крутая твин анимация да"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tween Animation" />
+             />
+
+        <ImageView
+            android:id="@+id/imagePoPrikolu"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:src="@drawable/complete"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

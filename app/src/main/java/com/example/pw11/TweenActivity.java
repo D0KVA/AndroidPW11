@@ -17,7 +17,7 @@ public class TweenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tween_animation);
 
         imageView = findViewById(R.id.imageView);
-        Animation rotateAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate_in);
+        Animation rotateAnimation = AnimationUtils.loadAnimation(this, R.anim.rotate);
         Animation buttonSlideIn = AnimationUtils.loadAnimation(this, R.anim.button_slide_in);
 
         imageView.startAnimation(rotateAnimation);
