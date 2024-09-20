@@ -18,19 +18,21 @@
             android:layout_marginTop="-200dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Анимация из фреймов" />
+            android:text="Анимация из фреймов"
+            android:textColor="#dae"/>
 
         <Button
             android:id="@+id/btnTweenAnimation"
             android:text="Типо крутая твин анимация да"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#dae"
              />
 
         <ImageView
             android:id="@+id/imagePoPrikolu"
             android:layout_width="500dp"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
             android:src="@drawable/complete"/>
     </LinearLayout>
 

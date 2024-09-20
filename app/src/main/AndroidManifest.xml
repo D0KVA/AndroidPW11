@@ -23,11 +23,11 @@
         </activity>
 
         <activity
-            android:name=".FrameActivity"
+            android:name=".ActivityGdeFrameAnimation"
             android:exported="false" />
 
         <activity
-            android:name=".TweenActivity"
+            android:name=".ActivityGdeTweenAnimation"
             android:exported="false" />
     </application>
 

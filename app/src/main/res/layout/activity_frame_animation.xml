@@ -16,21 +16,24 @@
 
         <Button
             android:id="@+id/btnStart"
-            android:layout_width="wrap_content"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:text="Start" />
+            android:text="Начать"
+            android:textColor="#dae"/>
 
         <Button
             android:id="@+id/btnPause"
-            android:layout_width="wrap_content"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:text="Pause" />
+            android:text="Пауза"
+            android:textColor="#dae"/>
 
         <Button
             android:id="@+id/btnBack"
-            android:layout_width="wrap_content"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:text="Back" />
+            android:text="Вернуться"
+            android:textColor="#dae"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

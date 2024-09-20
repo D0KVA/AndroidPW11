@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btnFrameAnimation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FrameActivity.class);
+                Intent intent = new Intent(MainActivity.this, ActivityGdeFrameAnimation.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btnTweenAnimation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, TweenActivity.class);
+                Intent intent = new Intent(MainActivity.this, ActivityGdeTweenAnimation.class);
                 startActivity(intent);
             }
         });

@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TweenActivity extends AppCompatActivity {
+public class ActivityGdeTweenAnimation extends AppCompatActivity {
     private ImageView imageView;
 
     @Override

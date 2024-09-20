@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class FrameActivity extends AppCompatActivity {
+public class ActivityGdeFrameAnimation extends AppCompatActivity {
     private ImageView imageView;
     private AnimationDrawable frameAnimation;
 
