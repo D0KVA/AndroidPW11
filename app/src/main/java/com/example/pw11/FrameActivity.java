@@ -19,7 +19,7 @@ public class FrameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_frame_animation);
 
         imageView = findViewById(R.id.imageView);
-        imageView.setBackgroundResource(R.drawable.frame_animation);
+        imageView.setBackgroundResource(R.drawable.animation_rabbit);
         frameAnimation = (AnimationDrawable) imageView.getBackground();
 
         Button startButton = findViewById(R.id.btnStart);
